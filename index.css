@@ -1,0 +1,48 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10%;
+    margin-top: 5vh;
+    border-radius: 0.5em;
+    border: black solid 0.15em;
+    font-size: 30px;
+}
+
+#Display {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 1em 5em;
+    border-radius: 0.5em;
+    border: black solid 0.15em;
+    
+}
+
+#Button {
+    align-self: center;
+    margin-top: 1em;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgreen;
+    border-radius: 1em;
+    padding: 0.5em 0.8em;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 5px black;
+}
+
