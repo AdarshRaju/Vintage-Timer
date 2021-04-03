@@ -53,13 +53,13 @@ function toggle() {
 }, 1000);
     heading.innerHTML = "Time Remaining"
     button.innerHTML = "Pause Timer"
-    button.style.background = "maroon"
+    button.style.background = "#326626"
     
     }
     else if (running == false && time > 0){
         stop_timer() 
         button.innerHTML = 'Unpause Timer'
-        button.style.background = 'purple'
+        button.style.background = 'darkgreen'
     }
     
     
