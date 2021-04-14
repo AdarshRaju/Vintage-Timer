@@ -7,10 +7,10 @@ var time = initial_time
 var running = false
 var start_timer
 if((time < 60)) {
-             display.innerHTML = `${0}: ${time}`
+             display.innerHTML = `${0}:${time}`
 }
 if(time >= 60) {
-             display.innerHTML = `${1}: ${time - 60}`
+             display.innerHTML = `${1}:${time - 60}`
 }
 
 function timer() {
@@ -18,10 +18,10 @@ function timer() {
           display.style.background = "white"
           time =  (time -1)
          if(time < 60 && time >= 0)  {
-             display.innerHTML = `${0}: ${time}`
+             display.innerHTML = `${0}:${time}`
 }
 if(time >= 60) {
-             display.innerHTML = `${1}: ${time - 60}`
+             display.innerHTML = `${1}:${time - 60}`
 }
     }
     if(time <= 0){
@@ -32,10 +32,10 @@ if(time >= 60) {
             running = false
             time = initial_time
             if(time < 60 && time >= 0)  {
-             display.innerHTML = `${0}: ${time}`
+             display.innerHTML = `${0}:${time}`
 }
 if(time >= 60) {
-             display.innerHTML = `${1}: ${time - 60}` }
+             display.innerHTML = `${1}:${time - 60}` }
             
         }
 }
